@@ -1,0 +1,132 @@
+/* Estilo para o corpo da página */
+/* Estilos para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: black;
+  color: #FFFFFF;
+}
+
+/* Estilos para os títulos */
+h1, h2 {
+  margin-top: 0;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #22C55E;
+  color: #FFFFFF;
+  display: inline;
+  text-align: center;
+}
+
+/* Estilos para o contêiner principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilos para a seção do calendário */
+.calendar-section {
+  margin-bottom: 20px;
+  color: #22C55E;
+}
+
+/* Estilos para a lista de horários */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estilos para os itens da lista de horários */
+li {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+/* Estilos para os botões */
+.confirm-button, .clear-button {
+  background-color: #22C55E;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.confirm-button:hover, .clear-button:hover {
+  background-color: #22C55E;
+}
+
+/* Estilos para os detalhes da reserva */
+.reservation-details {
+  margin-top: 20px;
+}
+
+/* Estilos para os itens da lista de detalhes da reserva */
+.reservation-details li {
+  margin-bottom: 5px;
+}
+
+/* Estilos para o formulário de pagamento */
+.payment-form {
+  margin-top: 20px;
+  background-color: #000000;
+  padding: 20px;
+  color: #000000;
+}
+
+/* Estilos para o título do formulário de pagamento */
+.payment-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Estilos para os campos de entrada do formulário de pagamento */
+.payment-input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Estilos para o botão de efetuar pagamento */
+.payment-button {
+  background-color: #22C55E;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer; /* Gradiente de cor de fundo */
+}
+
+.payment-button:hover {
+  background-color: #22C55E;
+  color: #FFFFFF;
+}
+.efetuar{
+  background-color: #22C55E;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+input::placeholder {
+  color: #22C55E;
+}
+
+payment-input:{
+  color: #22C55E;
+
+}
+
+.checkbox1 {
+  background-color: #22C55E;
+}
+
