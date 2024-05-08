@@ -1,0 +1,52 @@
+.fade-out {
+    opacity: 0;
+    animation: opacity 1s forwards;
+  } 
+  
+  @keyframes opacity {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .payment-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .payment-title {
+    text-align: center;
+  }
+  
+  .payment-row {
+    margin-bottom: 10px;
+  }
+  
+  .payment-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .payment-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .payment-button:hover {
+    background-color: #45a049;
+    
+  }
+  
