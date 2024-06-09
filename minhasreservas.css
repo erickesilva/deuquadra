@@ -1,0 +1,75 @@
+.minhas-reservas {
+    font-family: Arial, sans-serif;
+  }
+
+  .minhas-reservas-wrapper {
+    padding-top: 85px; /* ou qualquer outro valor desejado */
+  }
+  
+  .titulo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .quadra {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .nome-quadra {
+    font-size: 20PX;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .imagem-quadra {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+  }
+
+  
+  .endereco, .data-locacao, .avaliacao-media {
+    margin-bottom: 5px;
+  }
+  
+  .botoes-avaliacao {
+    display: flex;
+  }
+  
+  .estrela-ativa {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: gold;
+  }
+  
+  .estrela-inativa {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: gray;
+  }
+
+  .quadra {
+    display: flex; /* Utiliza flexbox para layout */
+    align-items: center; /* Alinha os itens verticalmente */
+  }
+  
+  .imagem-quadra {
+    width: 80px; /* Define a largura desejada para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 10px; /* Espaçamento à direita da imagem */
+  }
+  
+  .dados-quadra {
+    flex: 1; /* Ocupa todo o espaço disponível na linha */
+  }
+  
+  
